@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Virtual Art Gallery</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+    }
+    header {
+      background: #333;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      background: #555;
+      display: flex;
+      justify-content: center;
+      padding: 0.5rem;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 2rem;
+    }
+    .card {
+      background: white;
+      border-radius: 8px;
+      padding: 1rem;
+      margin: 1rem 0;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Virtual Art Gallery</h1>
+  <p>Explore, Create, and Curate Art Online</p>
+</header>
+
+<nav>
+  <a href="#admin">Admin</a>
+  <a href="#artist">Artist</a>
+  <a href="#visitor">Visitor</a>
+  <a href="#curator">Curator</a>
+</nav>
+
+<section id="admin">
+  <h2>Admin Panel</h2>
+  <div class="card">
+    <p>Manage platform content, user roles, and gallery settings.</p>
+    <button>Manage Users</button>
+    <button>Gallery Settings</button>
+  </div>
+</section>
+
+<section id="artist">
+  <h2>Artist Dashboard</h2>
+  <div class="card">
+    <p>Upload and manage artwork listings, interact with buyers, and track sales.</p>
+    <input type="file" accept="image/*">
+    <button>Upload Artwork</button>
+  </div>
+</section>
+
+<section id="visitor">
+  <h2>Visitor Gallery</h2>
+  <div class="card">
+    <p>Browse and explore artworks, participate in virtual tours, and make purchases.</p>
+    <button>Start Virtual Tour</button>
+    <div>
+      <img src="https://via.placeholder.com/200" alt="Artwork Sample">
+      <p><strong>Artwork Title</strong> by Artist Name</p>
+      <button>Purchase</button>
+    </div>
+  </div>
+</section>
+
+<section id="curator">
+  <h2>Curator Tools</h2>
+  <div class="card">
+    <p>Organize exhibitions, provide insights on artworks, and manage gallery content.</p>
+    <button>Create Exhibition</button>
+    <button>Write Insights</button>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 Virtual Art Gallery | All rights reserved.</p>
+</footer>
+
+</body>
+</html>
